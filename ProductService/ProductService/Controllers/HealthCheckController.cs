@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ProductService.Controllers
 {
+    //这是心跳服务
     [Route("[controller]")]
     [ApiController]
     public class HealthCheckController : ControllerBase
